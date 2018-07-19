@@ -13,6 +13,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ManageComponent } from './components/manage/manage.component';
 import { AppRoutes } from './app.routes';
 import { ChangePipe } from './pipes/change.pipe';
+import { ChangeDetectorPipe } from './pipes/change-detector.pipe';
+import { NewsPipe } from './pipes/news.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ChangePipe } from './pipes/change.pipe';
     SummaryComponent,
     DashboardComponent,
     ManageComponent,
-    ChangePipe
+    ChangePipe,
+    ChangeDetectorPipe,
+    NewsPipe
   ],
   imports: [
     BrowserModule,
